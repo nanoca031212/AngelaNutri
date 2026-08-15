@@ -100,7 +100,7 @@ const singleConsultation: Plan = {
   tag: "Presencial ou online",
   features: [
     "1 consulta presencial ou on-line",
-    "Avaliação física por bioimpedância ou por fotos com IA (on-line)",
+    "Avaliação física por bioimpedância (presencial) ou por fotos com auxílio de inteligência artificial (on-line)",
     "Avaliação completa da rotina e exames",
     "Plano alimentar personalizado",
     "1 ajuste no plano alimentar, se necessário",
