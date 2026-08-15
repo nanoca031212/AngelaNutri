@@ -19,12 +19,12 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className=""
         >
-          <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
+          <span className="inline-block py-1 px-4 rounded-full bg-secondary/10 text-secondary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
             Nutricionista
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
             Nutrição para viver com mais{" "}
-            <span className="text-primary italic">equilíbrio</span>.
+            <span className="text-secondary italic">equilíbrio</span>.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
             Acompanhamento individualizado para emagrecimento sustentável, saúde
@@ -49,7 +49,7 @@ export default function Hero() {
           </a>
 
           <div className="mt-8 flex items-center gap-4">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+            <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary flex-shrink-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

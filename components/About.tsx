@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="sobre" className="py-24 bg-white overflow-hidden">
+    <section id="sobre" className="pb-24 bg-white overflow-hidden">
       <div className="container mx-auto px-6 md:px-20 lg:px-32">
         <div className="flex flex-col md:flex-row-reverse gap-16 items-center">
           <motion.div
@@ -58,6 +59,23 @@ export default function About() {
                 restrição. Caminho ao seu lado em cada etapa do processo.
               </p>
             </div>
+
+            <a
+              href="https://wa.me/5571981401425"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative mt-8 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-primary rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl hover:bg-primary/90 transition-all active:scale-[1.0]"
+            >
+              {" "}
+              <span className="flex-1 font-bold text-base md:text-center">
+                {" "}
+                AGENDAR MINHA CONSULTA{" "}
+              </span>{" "}
+              <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
+                {" "}
+                <ArrowUpRight className="w-4 h-4" />{" "}
+              </div>{" "}
+            </a>
           </motion.div>
         </div>
       </div>

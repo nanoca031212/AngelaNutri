@@ -34,9 +34,13 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-20 lg:px-32 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
+        <Link
+          href="/"
+          className="flex items-center gap-2"
+          onClick={() => setIsOpen(false)}
+        >
           <span className="text-2xl font-serif font-bold text-text-main tracking-tight">
-            Angela <span className="text-primary">Andrade</span>
+            Angela <span className="text-secondary">Andrade</span>
           </span>
         </Link>
 
