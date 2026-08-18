@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">
             Pronto para cuidar da sua{" "}
-            <span className="text-secondary italic">saúde</span> de dentro
-            para fora?
+            <span className="text-secondary italic">saúde</span> de dentro para
+            fora?
           </h2>
           <a
             href="https://wa.me/5571981401425"
@@ -32,9 +32,11 @@ export default function Footer() {
               Nutrição personalizada com foco em emagrecimento sustentável,
               saúde da mulher, composição corporal e qualidade de vida.
             </p>
-            <p className="text-white/40 text-sm mb-8">Atendimento particular, com recibo para reembolso</p>
+            <p className="text-white/40 text-sm mb-8">
+              Atendimento particular, com recibo para reembolso
+            </p>
             <div className="flex gap-4">
-              {[Instagram, Facebook, Linkedin].map((Icon, i) => (
+              {[Instagram].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
